@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.sks.touchstudy.MainActivity">
+
+    <com.example.sks.touchstudy.MySwitch
+        android:layout_width="48dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/switch_bg"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp">
+        <View
+            android:id="@+id/track"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/track_drawable"
+            android:layout_gravity="center_horizontal"/>
+
+    </com.example.sks.touchstudy.MySwitch>
+</FrameLayout>
