@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerticalSwitch">
+        <attr name="switch_bg_on" format="reference|color"/>
+        <attr name="switch_bg_off" format="reference|color"/>
+        <attr name="track_bg_on" format="reference|color"/>
+        <attr name="track_bg_off" format="reference|color"/>
+        <attr name="checked" format="boolean"/>
+    </declare-styleable>
+</resources>
